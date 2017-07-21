@@ -12,7 +12,7 @@ CREATE TABLE SubEnd(
 );
 
 CREATE INDEX idx_datetime
-ON SubStart (EndDateTime);
+ON SubEnd (EndDateTime);
 
 CREATE INDEX idx_id
-ON SubStart (SubID);
+ON SubEnd (SubID);
