@@ -1,7 +1,7 @@
 # Subscription Model
 Exploration of content based subscription model to support child health pub-sub
 
-# Representing Subscriptions
+## Representing Subscriptions
 Represent a subscription as a JSON object:
 ```json
 {
@@ -51,12 +51,12 @@ Each subscription can have zero or more people ```people```. Each person is iden
 
 A set of example subscriptions are in folder ```/subscriptions```.
 
-# Normalising Subscriptions
+## Normalising Subscriptions
 A subscription is decomposed into its constituent parts and these are stored in a set of relational tables. This process is called *normalisation*.
 
 The SQL to create these tables are in folder ```/sql```.
 
-## SubStart
+### SubStart
 This table stores the start date for each subscription.
 
 | StartDateTime | SubID |
@@ -67,7 +67,7 @@ PK = StartDateTime + SubID
 
 Index(StartDateTime), Index(SubID)
 
-## SubEnd
+### SubEnd
 This table stores the end date for each subscription.
 
 | EndDateTime | SubID |
