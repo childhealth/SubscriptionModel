@@ -7,16 +7,20 @@ Represent a subscription as a JSON object:
   "subid": "SUB1",
   "owner": "LA1",
   "description": "Subscription for Universial Health Visiting Service as commissioned by LA1",
-  "start-datetime": "2017-07-16T19:20:30+00:00",
-  "end-datetime": "2027-07-16T19:20:30+00:00",
+  "startDateTime": "2017-07-16T19:20:30+00:00",
+  "endDateTime": "2027-07-16T19:20:30+00:00",
   "endpoint":
   {
     "transport": "MESH",
     "address": "XYZ",
     "credentials": ""
-  }
-  "event-group": "UHV",
-  "geog-boundary": "LA1",
-  "
+  },
+  "eventGroup": "UHV",
+  "geogBoundary": "LA1",
+  "people":
+  [
+    "nhsNumber": "1234567890",
+    "nhsNumber": "0987654321"
+   ]
 }
 ```
