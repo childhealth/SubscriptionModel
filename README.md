@@ -58,7 +58,13 @@ The SQL to create these tables are in folder ```/sql```.
 
 ## SubStart
 This table stores the start date for each subscription.
+
 | StartDateTime | SubID |
 |---------------|-------|
 |               |       |
-c
+
+PK = StartDateTime + SubID
+
+Index(StartDateTime)
+
+
