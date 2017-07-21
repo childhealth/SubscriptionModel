@@ -1,4 +1,4 @@
-Birt/*
+/*
  * SQL to insert test data in EventType table.
  * Assumes table does already exist.
  * 
