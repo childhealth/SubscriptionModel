@@ -25,7 +25,7 @@ Represent a subscription as a JSON object:
 ```
 Each subscription must have a unique identity ```subid```.
 
-Each subscriptions must have an owner ```owner```.
+Each subscription must have an owner ```owner```.
 
 Each subscription must have a description ```description```.
 
@@ -41,7 +41,7 @@ Each subscription must have a start date and time ```startDateTime```. This is r
      
 Each subscription must have an end date and time ```endDateTime```. This is represented in ISO 8601 format.
 
-Each subscription must an endpoint that represents the system which any events matching the subscription should be sent to. The ```endpoint``` object identifies the network transport to use ```transport```, the associated destination address ```address``` and any security credentials that may be needed to connect to the endpoint ```credentials```.
+Each subscription must have an endpoint that represents the system which any events matching the subscription should be sent to. The ```endpoint``` object identifies the network transport to use ```transport```, the associated destination address ```address``` and any security credentials that may be needed to connect to the endpoint ```credentials```.
 
 Each subscription can have an event group ```eventGroup```.
 
