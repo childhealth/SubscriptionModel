@@ -67,4 +67,13 @@ PK = StartDateTime + SubID
 
 Index(StartDateTime), Index(SubID)
 
+## SubEnd
+This table stores the end date for each subscription.
 
+| EndDateTime | SubID |
+|---------------|-------|
+|    2027-07-16T19:20:30+00:00 | SUB1 |
+
+PK = EndDateTime + SubID
+
+Index(EndDateTime), Index(SubID)
