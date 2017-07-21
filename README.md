@@ -107,3 +107,21 @@ This table stores the master list of event types.
 | ETYPE04 | Discharge details for the mother and child. |
 |  ETYPE07 | Professional comment, not a plan or action statement. |
 | ETYPE17 | Newborn Physical Examination. |
+
+### EventGroup
+TODO
+
+### Boundary
+TODO
+
+## Normalisation Process
+TODO
+
+## Event Representation
+TODO
+
+## Event Matching Process
+TODO
+
+## Event Matching Analysis
+TODO
