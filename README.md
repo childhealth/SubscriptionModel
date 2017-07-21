@@ -77,3 +77,16 @@ This table stores the end date for each subscription.
 PK = EndDateTime + SubID
 
 Index(EndDateTime), Index(SubID)
+
+### SubEvent
+This table stores the event types associated with each subscription. This information is derived from the event group reference data held in table ```EventGroup``` (see reference data section later).
+
+| EventType | SubID |
+|---------------|-------|
+| ETYPE04 | SUB1 |
+|  ETYPE07 | SUB1 |
+| ETYPE17 | SUB1 |
+
+PK = EventType + SubID
+
+Index(EventType), Index(SubID)
