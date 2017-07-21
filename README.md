@@ -9,18 +9,16 @@ Represent a subscription as a JSON object:
   "description": "Subscription for Universial Health Visiting Service as commissioned by LA1",
   "startDateTime": "2017-07-16T19:20:30+00:00",
   "endDateTime": "2027-07-16T19:20:30+00:00",
-  "endpoint":
-  {
+  "endpoint": {
     "transport": "MESH",
     "address": "XYZ",
     "credentials": ""
   },
   "eventGroup": "UHV",
   "geogBoundary": "LA1",
-  "people":
-  [
-    "nhsNumber": "1234567890",
-    "nhsNumber": "0987654321"
+  "people": [
+    {"nhsNumber": "1234567890"},
+    {"nhsNumber": "0987654321"}
    ]
 }
 ```
