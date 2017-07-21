@@ -48,3 +48,4 @@ Each subscription can have a geographical boundary ```geogBoundary```.
 
 Each subscription can have zero or more people ```people```. Each person is identified by their NHS number ```nhsNumber```.
 
+A set of example subscriptions are in folder ```/subscriptions```.
