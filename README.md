@@ -1,6 +1,7 @@
 # subscriptionmodel
 Exploration of content based subscription model to support child health pub-sub
 
+# Representing subscriptions
 Represent a subscription as a JSON object:
 ```json
 {
@@ -49,3 +50,15 @@ Each subscription can have a geographical boundary ```geogBoundary```.
 Each subscription can have zero or more people ```people```. Each person is identified by their NHS number ```nhsNumber```.
 
 A set of example subscriptions are in folder ```/subscriptions```.
+
+# Normalising Subscriptions
+A subscription is decomposed into its constituent parts and these are stored in a set of relational tables. This process is called *normalisation*.
+
+The SQL to create these tables are in folder ```/sql```.
+
+## SubStart
+This table stores the start date for each subscription.
+| StartDateTime | SubID |
+|---------------|-------|
+|               |       |
+c
