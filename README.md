@@ -43,3 +43,8 @@ Each subscription must have an end date and time ```endDateTime```. This is repr
 Each subscription must an endpoint that represents the system which any events matching the subscription should be sent to. The ```endpoint``` object identifies the network transport to use ```transport```, the associated destination address ```address``` and any security credentials that may be needed to connect to the endpoint ```credentials```.
 
 Each subscription can have an event group ```eventGroup```.
+
+Each subscription can have a geographical boundary ```geogBoundary```.
+
+Each subscription can have zero or more people ```people```. Each person is identified by their NHS number ```nhsNumber```.
+
