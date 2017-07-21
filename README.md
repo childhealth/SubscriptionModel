@@ -63,20 +63,12 @@ This table stores the start date for each subscription.
 |---------------|-------|
 |    2017-07-16T19:20:30+00:00 | SUB1 |
 
-PK = StartDateTime + SubID
-
-Index(StartDateTime), Index(SubID)
-
 ### SubEnd
 This table stores the end date for each subscription.
 
 | EndDateTime | SubID |
 |---------------|-------|
 |    2027-07-16T19:20:30+00:00 | SUB1 |
-
-PK = EndDateTime + SubID
-
-Index(EndDateTime), Index(SubID)
 
 ### SubEvent
 This table stores the event types associated with each subscription. This information is derived from the event group reference data held in table ```EventGroup``` (see reference data section later).
@@ -87,10 +79,6 @@ This table stores the event types associated with each subscription. This inform
 |  ETYPE07 | SUB1 |
 | ETYPE17 | SUB1 |
 
-PK = EventType + SubID
-
-Index(EventType), Index(SubID)
-
 ### SubPostcode
 This table stores the postcodes associated with each subscription. This information is derived from the boundary reference data held in table ```Boundary``` (see reference data section later).
 
@@ -100,10 +88,6 @@ This table stores the postcodes associated with each subscription. This informat
 | LS1 4HT | SUB1 |
 | LS11 5BZ | SUB1 |
 
-PK = Postcode + SubID
-
-Index(Postcode), Index(SubID)
-
 ### SubPerson
 This table stores the NHS number for each person associated with each subscription.
 
@@ -111,7 +95,3 @@ This table stores the NHS number for each person associated with each subscripti
 |---------------|-------|
 | 1234567890 | SUB1 |
 | 0987654321 | SUB1 |
-
-PK = NHSNumber + SubID
-
-Index(NHSNumber), Index(SubID)
