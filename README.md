@@ -95,3 +95,15 @@ This table stores the NHS number for each person associated with each subscripti
 |---------------|-------|
 | 1234567890 | SUB1 |
 | 0987654321 | SUB1 |
+
+## Reference Data
+To support the normalisation of subscriptions, a set of reference data is required.
+
+### EventType
+This table stores the master list of event types.
+
+| EventType | Description |
+|---------------|-------|
+| ETYPE04 | Discharge details for the mother and child. |
+|  ETYPE07 | Professional comment, not a plan or action statement. |
+| ETYPE17 | Newborn Physical Examination. |
