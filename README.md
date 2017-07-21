@@ -1,7 +1,7 @@
-#Subscription Model
+# Subscription Model
 Exploration of content based subscription model to support child health pub-sub
 
-# Representing subscriptions
+# Representing Subscriptions
 Represent a subscription as a JSON object:
 ```json
 {
