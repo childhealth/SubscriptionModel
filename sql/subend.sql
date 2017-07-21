@@ -1,5 +1,5 @@
 /*
- * SQL to create table Subend and associated indexes.
+ * SQL to create table SubEnd and associated indexes.
  * Assumes table does not already exist.
  *
  * MAK 21-07-2017: First version
@@ -8,7 +8,7 @@
 CREATE TABLE SubEnd(
   EndDateTime TIMESTAMP NOT NULL,
   SubID VARCHAR(20) NOT NULL,
-  CONSTRAINT PK_Start PRIMARY KEY (EndDateTime, SubID)
+  CONSTRAINT PK_End PRIMARY KEY (EndDateTime, SubID)
 );
 
 CREATE INDEX idx_datetime
