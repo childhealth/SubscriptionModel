@@ -13,7 +13,7 @@ Represent a subscription as a JSON object:
   {
     "transport": "MESH",
     "address": "XYZ",
-    credentials: ""
+    "credentials": ""
   }
   "event-group": "UHV",
   "geog-boundary": "LA1",
