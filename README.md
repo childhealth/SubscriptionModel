@@ -29,6 +29,7 @@ Each subscriptions must have an owner ```owner```.
 Each subscription must have a description ```description```.
 
 Each subscription must have a start date and time ```startDateTime```. This is represented in ISO 8601 format, complete date plus hours, minutes and seconds: YYYY-MM-DDThh:mm:ssTZD (eg 1997-07-16T19:20:30+01:00), where:
+
      YYYY = four-digit year
      MM   = two-digit month (01=January, etc.)
      DD   = two-digit day of month (01 through 31)
