@@ -65,6 +65,6 @@ This table stores the start date for each subscription.
 
 PK = StartDateTime + SubID
 
-Index(StartDateTime)
+Index(StartDateTime), Index(SubID)
 
 
