@@ -103,3 +103,15 @@ This table stores the postcodes associated with each subscription. This informat
 PK = Postcode + SubID
 
 Index(Postcode), Index(SubID)
+
+### SubPerson
+This table stores the NHS number for each person associated with each subscription.
+
+| NHSNumber | SubID |
+|---------------|-------|
+| 1234567890 | SUB1 |
+| 0987654321 | SUB1 |
+
+PK = NHSNumber + SubID
+
+Index(NHSNumber), Index(SubID)
