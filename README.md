@@ -90,3 +90,16 @@ This table stores the event types associated with each subscription. This inform
 PK = EventType + SubID
 
 Index(EventType), Index(SubID)
+
+### SubPostcode
+This table stores the postcodes associated with each subscription. This information is derived from the boundary reference data held in table ```Boundary``` (see reference data section later).
+
+| Postcode | SubID |
+|---------------|-------|
+| LS1 6AE | SUB1 |
+| LS1 4HT | SUB1 |
+| LS11 5BZ | SUB1 |
+
+PK = Postcode + SubID
+
+Index(Postcode), Index(SubID)
