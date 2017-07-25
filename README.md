@@ -58,7 +58,7 @@ Represent an event as a JSON object:
   "eventType": "ETYPE04",
   "eventDateTime": "2017-07-16T19:20:30+00:00",
   "nhsNumber": "1234567890",
-  "postcode": "LS1 6AE,
+  "postcode": "LS1 6AE",
   "payload": "stuff"
 }
 ```
