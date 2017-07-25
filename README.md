@@ -79,5 +79,5 @@ A set of example events are in folder ```/events```.
 ## Models
 Several content based subscription models are considered:
 * [Naive scan](https://github.com/childhealth/SubscriptionModel/blob/master/model/naivescan.md)
-* Normalisation
+* [Normalisation](https://github.com/childhealth/SubscriptionModel/blob/master/model/normalisation.md)
 
