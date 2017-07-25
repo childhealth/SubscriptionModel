@@ -72,7 +72,14 @@ This table stores the event types which are members of each event group. An even
 | UHV        | ETYPE07   |
 
 ### Boundary
-TODO
+This table stores the master list of boundaries.
+
+| BoundaryID | Description |
+|------------|-----------|
+| LA1        | Local Authority 1   |
+
+### BoundaryPostcode
+TO DO
 
 ## Normalisation Process
 TODO
