@@ -55,10 +55,10 @@ A set of example subscriptions are in folder ```/subscriptions```.
 Represent an event as a JSON object:
 ```json
 {
-  "eventType": "X",
+  "eventType": "ETYPE04",
   "eventDateTime": "2017-07-16T19:20:30+00:00",
   "nhsNumber": "1234567890",
-  "postcode": "X",
+  "postcode": "LS1 6AE,
   "payload": "stuff"
 }
 ```
