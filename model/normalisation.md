@@ -22,7 +22,7 @@ This table stores the end date for each subscription.
 ### SubEvent
 This table stores the event types associated with each subscription. This information is derived from the event group reference data held in table ```EventGroup``` (see reference data section later).
 
-| EventType | SubID |
+| EventTypeID | SubID |
 |---------------|-------|
 | ETYPE04 | SUB1 |
 |  ETYPE07 | SUB1 |
@@ -51,7 +51,7 @@ To support the normalisation of subscriptions, a set of reference data is requir
 ### EventType
 This table stores the master list of event types.
 
-| EventType | Description |
+| EventTypeID | Description |
 |---------------|-------|
 | ETYPE04 | Discharge details for the mother and child. |
 |  ETYPE07 | Professional comment, not a plan or action statement. |
@@ -60,7 +60,7 @@ This table stores the master list of event types.
 ### EventGroup
 This table stores the event types which are members of each event group. An event type can be a member of more than one group.
 
-| EventGroup | EventType |
+| EventGroupID | EventTypeID |
 |------------|-----------|
 | UHV        | ETYPE07   |
 
