@@ -79,7 +79,12 @@ This table stores the master list of boundaries.
 | LA1        | Local Authority 1   |
 
 ### BoundaryPostcode
-TO DO
+This table stores the postcodes associated with boundaries. A postcode can be associated with more than one boundary.
+
+| BoundaryID | Postcode |
+|------------|-----------|
+| LA1        | LS1 6AE  |
+| LA1        | LS1 4HT  |
 
 ## Normalisation Process
 TODO
