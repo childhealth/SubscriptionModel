@@ -6,10 +6,10 @@
  */
  
 CREATE TABLE EventType(
-  EventType VARCHAR(20) NOT NULL,
+  EventTypeID VARCHAR(20) NOT NULL,
   Description VARCHAR(250) NOT NULL,
-  CONSTRAINT PK_Event PRIMARY KEY (EventType)
+  CONSTRAINT PK_Event PRIMARY KEY (EventTypeID)
 );
 
 CREATE INDEX idx_type
-ON EventType (EventType);
+ON EventType (EventTypeID);
