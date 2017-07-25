@@ -58,6 +58,13 @@ This table stores the master list of event types.
 | ETYPE17 | Newborn Physical Examination. |
 
 ### EventGroup
+This table stores the master list of event groups.
+
+| EventGroupID | Description |
+|------------|-----------|
+| UHV        | ETYPE07   |
+
+### EventGroupEvent
 This table stores the event types which are members of each event group. An event type can be a member of more than one group.
 
 | EventGroupID | EventTypeID |
