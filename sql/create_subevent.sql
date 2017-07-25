@@ -6,13 +6,13 @@
  */
  
 CREATE TABLE SubEvent(
-  EventType VARCHAR(20) NOT NULL,
+  EventTypeID VARCHAR(20) NOT NULL,
   SubID VARCHAR(20) NOT NULL,
-  CONSTRAINT PK_Event PRIMARY KEY (EventType, SubID)
+  CONSTRAINT PK_Event PRIMARY KEY (EventTypeID, SubID)
 );
 
 CREATE INDEX idx_type
-ON SubEvent (EventType);
+ON SubEvent (EventTypeID);
 
 CREATE INDEX idx_id
 ON SubEvent (SubID);
