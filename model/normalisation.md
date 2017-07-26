@@ -12,6 +12,8 @@ This table stores the start date for each subscription.
 |---------------|-------|
 |    2017-07-16T19:20:30+00:00 | SUB1 |
 
+[CREATE TABLE](https://github.com/childhealth/SubscriptionModel/blob/master/sql/create_substart.sql)
+
 ### SubEnd
 This table stores the end date for each subscription.
 
