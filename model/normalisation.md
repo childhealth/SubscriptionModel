@@ -3,7 +3,7 @@
 ## Normalising Subscriptions
 A subscription is decomposed into its constituent parts and these are stored in a set of relational tables. This process is called *normalisation*.
 
-The SQL to create these tables are in folder ```/sql```.
+The SQL to create these tables, and populate some, are in folder ```/sql```.
 
 ### SubStart
 This table stores the start date for each subscription.
