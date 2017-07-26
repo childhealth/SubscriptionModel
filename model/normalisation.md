@@ -24,13 +24,15 @@ This table stores the end date for each subscription.
 [CREATE TABLE](https://github.com/childhealth/SubscriptionModel/blob/master/sql/create_subend.sql)
 
 ### SubEvent
-This table stores the event types associated with each subscription. This information is derived from the event group reference data held in table ```EventGroup``` (see reference data section later).
+This table stores the event types associated with each subscription. This information is derived from the event group reference data held in tables ```EventGroup``` and ```EventGroupEvent``` (see reference data section later).
 
 | EventTypeID | SubID |
 |---------------|-------|
 | ETYPE04 | SUB1 |
 |  ETYPE07 | SUB1 |
 | ETYPE17 | SUB1 |
+
+[CREATE TABLE](https://github.com/childhealth/SubscriptionModel/blob/master/sql/create_subevent.sql)
 
 ### SubPostcode
 This table stores the postcodes associated with each subscription. This information is derived from the boundary reference data held in table ```Boundary``` (see reference data section later).
