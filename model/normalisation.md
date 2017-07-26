@@ -21,6 +21,8 @@ This table stores the end date for each subscription.
 |---------------|-------|
 |    2027-07-16T19:20:30+00:00 | SUB1 |
 
+[CREATE TABLE](https://github.com/childhealth/SubscriptionModel/blob/master/sql/create_subend.sql)
+
 ### SubEvent
 This table stores the event types associated with each subscription. This information is derived from the event group reference data held in table ```EventGroup``` (see reference data section later).
 
